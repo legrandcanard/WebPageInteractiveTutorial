@@ -1,0 +1,19 @@
+.tutorial-btn-action {
+    background: #61a0fd;
+    color: white;
+    padding: 2px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 5px 0 0 11px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    transition: all .1s ease;
+}
+.tutorial-btn-action:hover {
+    background: #5196ff;
+}
+.tutorial-btn-action:focus {
+    background: #3e8bff;
+}
+.tutorial-btn-action:disabled {
+    background: #afb4bd;
+}

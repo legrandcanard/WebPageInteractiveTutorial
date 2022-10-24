@@ -1,0 +1,16 @@
+.outline-rect {
+    position: absolute;
+    transition: .5s ease;
+    transition-property: left, top, width, height;
+    z-index: 999;
+    pointer-events: none;
+}
+
+.outline-rect-mask {
+    position: absolute;
+    box-shadow: 0 0 0 99999px #8f8f8f40;
+    transition: .5s ease;
+    transition-property: left, top, width, height;
+    pointer-events: none;
+    z-index: 99999999;
+}

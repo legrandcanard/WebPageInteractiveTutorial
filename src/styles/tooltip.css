@@ -1,0 +1,43 @@
+.tutorial-tooltip {
+    padding: 10px 20px;
+    position: absolute;
+    text-align: center;
+    display: table;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    z-index: 999999999;
+    cursor: default;
+    transition: .5s ease;
+    transition-property: left, top;
+    background: white;
+}
+    .tutorial-tooltip.vis {
+        animation: tutorial-tooltip-in 100ms ease-in 0s 1 normal forwards;
+    }
+    .tutorial-tooltip.hid {
+        animation: tutorial-tooltip-out 100ms ease-in 0s 1 normal forwards;
+    }
+.tutorial-tooltip-content {
+    vertical-align: middle;
+    display: table-cell;
+}
+@keyframes tutorial-tooltip-in {
+    0% {
+        transform: scale(0.2);
+        visibility: visible;
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+@keyframes tutorial-tooltip-out {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(0.2);
+        visibility: hidden;
+    }
+}
