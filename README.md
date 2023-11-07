@@ -7,7 +7,7 @@ Guide users through complexity of your application via this utility.
 ● Smoth ● Responsive ● Configurable
 
 ## Installation
-No cdn available yet so just grab a bundle from ```/dist/webpageInteractiveTutorial.js```, make link from your web page, and you are good to go.
+No cdn available yet so just grab a bundle from ```/dist/webpageInteractiveTutorial.js```, make a link from your web page, and you are good to go.
 ## Usage
 Basic example:
 ```js
